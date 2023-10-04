@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
+</head>
+<body>
+    <main>
+        <div class="container" id="container_direction">
+            <h2> Flex-direction </h2>
+            <div class="div_rect" id="div_rect1">
+                <canvas class="rect rect1"></canvas>
+                <canvas class="rect rect2"></canvas>
+                <canvas class="rect rect3"></canvas>
+            </div>
+            <div class="div_opt">
+                <h3 class="titulo_opt"> Clique em uma das seguintes opções: </h3>
+                <span id="flex_direction_row"> Flex-direction: row </span>
+                <span id="flex_direction_column"> Flex-direction: column </span>
+                <span id="flex_direction_row_reverse"> Flex-direction: row-reverse </span>
+                <span id="flex_direction_column_reverse"> Flex-direction: column-reverse </span>
+            </div>
+        </div>
+
+        <div class="container" id="container_justify">
+            <h2> Justify-content </h2>
+            <div class="div_rect" id="div_rect2">
+                <canvas class="rect"></canvas>
+                <canvas class="rect"></canvas>
+                <canvas class="rect"></canvas>
+            </div>
+            <div class="div_opt">
+                <h3 class="titulo_opt"> Clique em uma das seguintes opções: </h3>
+                <span id="justify_content_start">Justify-content: flex-start </span>
+                <span id="justify_content_center">Justify-content: center </span>
+                <span id="justify_content_end">Justify-content: flex-end </span>
+                <span id="justify_content_space_between">Justify-content: space-between </span>
+                <span id="justify_content_space_around">Justify-content: space-around </span>
+                <span id="justify_content_space_evenly">Justify-content: space-evenly </span>
+            </div>
+        </div>
+
+        <div class="container" id="container_align_items">
+            <h2> Align-items </h2>
+            <div class="div_rect" id="div_rect3">
+                <canvas class="rect"></canvas>
+                <canvas class="rect"></canvas>
+                <canvas class="rect"></canvas>
+            </div>
+            <div class="div_opt">
+                <h3 class="titulo_opt"> Clique em uma das seguintes opções: </h3>
+                <span id="align_items_start"> Align-items: flex-start </span>
+                <span id="align_items_center"> Align-items: center </span>
+                <span id="align_items_end"> Align-items: flex-end </span>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
